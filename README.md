@@ -39,6 +39,7 @@ Users should be able to:
 
 - Frontend Challenge: [https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa]()
 - Live Site URL: [https://io2puv.csb.app/]()
+- My Previous Solution: [https://codepen.io/itsmusa/pen/rNdrBJV]()
 
 
 ## My process
