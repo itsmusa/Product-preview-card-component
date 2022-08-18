@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(30deg, 38%, 92%);
+  font-size: 1rem;
+  color: hsl(228deg, 12%, 48%);
+  padding: 2rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 100%);
+  max-width: 37.5rem;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+@media (min-width: 37.5rem) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+main .fraunces {
+  font-family: "fraunces";
+}
+main picture {
+  display: block;
+  height: 100%;
+}
+main picture img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .product__details {
+  padding: 1rem;
+}
+@media (min-width: 37.5rem) {
+  main .product__details {
+    padding: 2rem;
+  }
+}
+main .product__details h2 {
+  font-size: 2rem;
+  line-height: 1.1;
+  color: hsl(212deg, 21%, 14%);
+  margin-bottom: 1rem;
+  font-size: 700;
+}
+@media (min-width: 37.5rem) {
+  main .product__details h2 {
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+}
+main .product__details p {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+@media (min-width: 37.5rem) {
+  main .product__details p {
+    margin-bottom: 2rem;
+  }
+}
+main .product__details .product__price {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 37.5rem) {
+  main .product__details .product__price {
+    margin-bottom: 2rem;
+  }
+}
+main .product__details .product__price h2 {
+  margin-bottom: 0;
+}
+main .product__details .product__price .now {
+  color: hsl(158deg, 36%, 37%);
+}
+main .product__details .product__price .before {
+  text-decoration: line-through;
+  font-size: 0.8125rem;
+}
+main .btn {
+  background-color: hsl(158deg, 36%, 37%);
+  padding: 1rem 1rem;
+  text-decoration: none;
+  border-radius: 10px;
+  color: hsl(0deg, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+}
+main .btn:hover {
+  background-color: #1c3b30;
+}/*# sourceMappingURL=style.css.map */
