@@ -1,4 +1,4 @@
-# Product preview card component - Responsive Single Page
+# Product preview card component - Responsive
 
 This project a coding chalenge from frontendmentor.io
 
